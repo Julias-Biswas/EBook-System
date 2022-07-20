@@ -343,9 +343,9 @@
 
                             <form action="OrderServlet" method="POST">
                                 <div class="form-row">
-                                    <div class="form-row">
-                                        <input type="number" name="userId1" class="form-control" id="inputEmail4" value="<%= userAllDetails.getId()%>" required="" style="display: none;">
-                                    </div>
+                                    <input type="number" name="userId1" class="form-control" id="inputEmail4" value="<%= userAllDetails.getId()%>" required="" style="display: none;">
+                                </div>
+                                <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputEmail4">Name<span class="text-danger">*</span></label>
                                         <input type="text" name="userName1" class="form-control" id="inputEmail4" value="<%= userAllDetails.getName()%>" required="" >
