@@ -77,50 +77,6 @@
             }
             /*  Scroll Button Design End  */
 
-            /*  SnackBar / Toast Message Design Start  */
-/*            #snackbar {
-                visibility: hidden;
-                min-width: 250px;
-                margin-left: -125px;
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                border-radius: 2px;
-                padding: 16px;
-                position: fixed;
-                z-index: 1;
-                left: 50%;
-                bottom: 30px;
-                font-size: 17px;
-            }
-
-            #snackbar.show {
-                visibility: visible;
-                -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-                animation: fadein 0.5s, fadeout 0.5s 2.5s;
-            }
-
-            @-webkit-keyframes fadein {
-                from {bottom: 0; opacity: 0;} 
-                to {bottom: 30px; opacity: 1;}
-            }
-
-            @keyframes fadein {
-                from {bottom: 0; opacity: 0;}
-                to {bottom: 30px; opacity: 1;}
-            }
-
-            @-webkit-keyframes fadeout {
-                from {bottom: 30px; opacity: 1;} 
-                to {bottom: 0; opacity: 0;}
-            }
-
-            @keyframes fadeout {
-                from {bottom: 30px; opacity: 1;}
-                to {bottom: 0; opacity: 0;}
-            }*/
-            /*  SnackBar / Toast Message Design End  */
-
         </style>
 
     </head>
@@ -289,6 +245,30 @@
 
         <!--  JavaScript Code End  -->
 
+        <!--  View Source Page Disable Start  --> 
+        <SCRIPT language=JavaScript>
+
+            <!-- http://www.spacegun.co.uk -->
+
+            var message = "                                          We are Sorry!"
+                    +"\n"+"                              View Page Source are Disable";
+
+            function rtclickcheck(keyp) {
+                if (navigator.appName === "Netscape" && keyp.which === 3) {
+                    alert(message);
+                    return false;
+                }
+
+                if (navigator.appVersion.indexOf("MSIE") !== -1 && event.button === 2) {
+                    alert(message);
+                    return false;
+                }
+            }
+
+            document.onmousedown = rtclickcheck;
+
+        </SCRIPT>
+        <!--  View Source Page Disable End  --> 
 
     </body>
 </html>
