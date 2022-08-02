@@ -109,8 +109,18 @@
                             <a class="p-3 group-item list-group-item-action" href="#list-item-3">Help with other issues</a>
                             <a class="list-item"></a>
                             <h6 class="p-3">HELP TOPICS</h6>
-                            <a class="p-3 group-item list-group-item-action" href="#list-item-4">Order</a>
-                            <a class="p-3 group-item list-group-item-action" href="#list-item-5">Shopping</a>
+                            <%
+                                if (user == null) {
+                            %>
+                            <a class="p-3 group-item list-group-item-action" href="signin.jsp">Order</a>
+                            <%
+                            } else {
+                            %>
+                            <a class="p-3 group-item list-group-item-action" href="user_order.jsp">Order</a>
+                            <%
+                                }
+                            %>
+                            <a class="p-3 group-item list-group-item-action" href="index.jsp">Shopping</a>
                             <a class="p-3 group-item list-group-item-action" href="#list-item-5">Other</a>
                         </div>
                     </div>
@@ -176,7 +186,7 @@
             <!-- http://www.spacegun.co.uk -->
 
             var message = "                                          We are Sorry!"
-                    +"\n"+"                              View Page Source are Disable";
+                    + "\n" + "                              View Page Source are Disable";
 
             function rtclickcheck(keyp) {
                 if (navigator.appName === "Netscape" && keyp.which === 3) {
@@ -194,7 +204,7 @@
 
         </SCRIPT>
         <!--  View Source Page Disable End  --> 
-        
+
         <!--  JavaScript Code End  -->
 
 
