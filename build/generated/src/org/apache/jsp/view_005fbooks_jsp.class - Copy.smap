@@ -1,0 +1,44 @@
+SMAP
+view_005fbooks_jsp.java
+JSP
+*S JSP
+*F
++ 0 view_books.jsp
+view_books.jsp
++ 1 all_links.jsp
+link/all_links.jsp
++ 2 navbar.jsp
+navbar.jsp
++ 3 index_navbar.jsp
+admin/index_navbar.jsp
++ 4 footer.jsp
+footer.jsp
+*L
+5,15:59
+19,9:74
+5#1,26:83
+27#0,80:109
+107:189,2
+108,3:191
+110,2:194
+111,2:196
+5#2,59:198
+112#0,2:256
+114,2:259
+115,2:261
+5#3,14:263
+18,26:277
+44,3:304
+46,4:307
+50,4:312
+53,2:316
+55:318,3
+56,3:321
+59,2:325
+60,60:327
+116#0,2:386
+117,2:388
+118,67:390
+5#4,8:457
+184#0,37:464
+*E
